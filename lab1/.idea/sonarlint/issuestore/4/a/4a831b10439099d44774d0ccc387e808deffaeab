@@ -1,0 +1,16 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ã´ì8—ÈÏ.
+H
+java:S1659#"&Declare "receiver" on a separate line.(ØƒÚÎÿÿÿÿÿ8ìĞŒÈÏ.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Çµí‘8¬´™ÈÏ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùô´Ñÿÿÿÿÿ8¤ŸÌÇÏ.
+c
+java:S2142-"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ìĞŒÈÏ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àµƒıÿÿÿÿ8ªºµÇÏ.
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(œÑ”Êşÿÿÿÿ8šß›ÈÏ.
+c
+java:S2142G"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÿÆ™ÈÏ.
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(œÑ”Êşÿÿÿÿ8ı«¬ÈÏ.
+c
+java:S2142;"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ı«¬ÈÏ.
