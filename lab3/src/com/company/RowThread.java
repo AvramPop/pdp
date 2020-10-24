@@ -41,5 +41,11 @@ public class RowThread extends Thread {
   }
 
   @Override
-  public void run() {}
+  public void run() {
+      for(int i = 0; i < elements.size(); i++) {
+          int row = elements.get(i).getKey();
+          int column = elements.get(i).getValue();
+          matrixC.set(row, column, MatrixUtil.computeElement(matrixA, row, matrixB, column));
+      }
+  }
 }

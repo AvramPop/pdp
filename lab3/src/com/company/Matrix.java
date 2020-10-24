@@ -36,4 +36,8 @@ public class Matrix {
     }
     return sb.toString();
   }
+
+  public void set(int row, int column, int value) {
+    matrix[row][column] = value;
+  }
 }
