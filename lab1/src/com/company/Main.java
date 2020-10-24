@@ -16,7 +16,7 @@ import java.util.Random;
  * account, and also that all operations on each account appear also in the logs of the source or
  * destination of the transfer.
  *
- * <p>The problems will require to execute a number of independent operations, that operate on
+ * The problems will require to execute a number of independent operations, that operate on
  * shared data.
  * There shall be several threads launched at the beginning, and each thread shall
  * execute a lot of operations. The operations to be executed are to be randomly chosen, and with
