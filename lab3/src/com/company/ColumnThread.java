@@ -2,9 +2,8 @@ package com.company;
 
 import java.util.AbstractMap;
 
-public class RowThread extends MatrixThread {
-
-  public RowThread(
+public class ColumnThread extends MatrixThread {
+  public ColumnThread(
       int startingRow,
       int startingColumn,
       int numberOfElements,
@@ -19,11 +18,11 @@ public class RowThread extends MatrixThread {
     int count = numberOfElements;
     while (count > 0 && i < matrixC.rows && j < matrixC.columns) {
       elements.add(new AbstractMap.SimpleEntry<>(i, j));
-      j++;
+      i++;
       count--;
-      if (j == matrixC.rows) {
-        j = 0;
-        i++;
+      if (i == matrixC.columns) {
+        i = 0;
+        j++;
       }
     }
   }

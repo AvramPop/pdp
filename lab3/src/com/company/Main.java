@@ -12,8 +12,8 @@ public class Main {
   private static final int rowsB = 3;
   private static final int colsB = 3;
   private static final int NUMBER_OF_THREADS = 4;
-  private static final PoolStrategy POOL_STRATEGY = PoolStrategy.CLASSIC;
-  private static final GenerationStrategy GENERATION_STRATEGY = GenerationStrategy.ROWS;
+  private static final PoolStrategy POOL_STRATEGY = PoolStrategy.THREAD_POOL;
+  private static final GenerationStrategy GENERATION_STRATEGY = GenerationStrategy.COLUMNS;
 
   public static void main(String[] args) {
     Matrix matrixA = new Matrix(rowsA, colsA);
@@ -79,6 +79,7 @@ public class Main {
       if (!executorService.awaitTermination(300, TimeUnit.SECONDS)) {
         executorService.shutdownNow();
       }
+      System.out.println("Matrix C:");
       System.out.println(matrixC.toString());
     } catch (InterruptedException ex) {
       executorService.shutdownNow();
@@ -86,30 +87,34 @@ public class Main {
     }
   }
 
-  private static Thread createKthThread(int index, Matrix matrixA, Matrix matrixB, Matrix matrixC) {
-    throw new IllegalStateException(); // TODO implement this
-  }
-
-  private static Thread createColumnThread(
+  private static MatrixThread createKthThread(
       int index, Matrix matrixA, Matrix matrixB, Matrix matrixC) {
     throw new IllegalStateException(); // TODO implement this
   }
 
-  private static Thread createRowThread(int index, Matrix matrixA, Matrix matrixB, Matrix matrixC) {
+  private static MatrixThread createColumnThread(
+      int index, Matrix matrixA, Matrix matrixB, Matrix matrixC) {
+    int numberOfElementsInMatrix = matrixC.rows * matrixC.columns;
+    int setSize = numberOfElementsInMatrix / NUMBER_OF_THREADS;
+    int startingLine = setSize * index % matrixC.rows;
+    int startingColumn = setSize * index / matrixC.rows;
+    if (index == NUMBER_OF_THREADS - 1) setSize += numberOfElementsInMatrix % NUMBER_OF_THREADS;
+    //        System.out.println("ColumnThread #" + index + " line = " + startingLine + " column = "
+    // +
+    //     startingColumn + " els = " + setSize);
+    return new ColumnThread(startingLine, startingColumn, setSize, matrixA, matrixB, matrixC);
+  }
+
+  private static MatrixThread createRowThread(
+      int index, Matrix matrixA, Matrix matrixB, Matrix matrixC) {
     int numberOfElementsInMatrix = matrixC.rows * matrixC.columns;
     int setSize = numberOfElementsInMatrix / NUMBER_OF_THREADS;
     int startingLine = setSize * index / matrixC.rows;
     int startingColumn = setSize * index % matrixC.rows;
-    if (index == NUMBER_OF_THREADS - 1)
-      setSize += numberOfElementsInMatrix % NUMBER_OF_THREADS;
-//    System.out.println("RowThread #" + index + " line = " + startingLine + " column = " + startingColumn + " els = " + setSize);
-    return new RowThread(
-        startingLine,
-        startingColumn,
-        setSize,
-        matrixA,
-        matrixB,
-        matrixC);
+    if (index == NUMBER_OF_THREADS - 1) setSize += numberOfElementsInMatrix % NUMBER_OF_THREADS;
+    //    System.out.println("RowThread #" + index + " line = " + startingLine + " column = " +
+    // startingColumn + " els = " + setSize);
+    return new RowThread(startingLine, startingColumn, setSize, matrixA, matrixB, matrixC);
   }
 
   private static void classicThreadsDriver(Matrix matrixA, Matrix matrixB, Matrix matrixC) {
