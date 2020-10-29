@@ -8,13 +8,13 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-  private static final int rowsA = 1000;
-  private static final int colsA = 1000;
-  private static final int rowsB = 1000;
-  private static final int colsB = 1000;
+  private static final int rowsA = 5;
+  private static final int colsA = 3;
+  private static final int rowsB = 3;
+  private static final int colsB = 4;
   private static final int NUMBER_OF_THREADS = 4;
   private static final PoolStrategy POOL_STRATEGY = PoolStrategy.CLASSIC;
-  private static final GenerationStrategy GENERATION_STRATEGY = GenerationStrategy.ROWS;
+  private static final GenerationStrategy GENERATION_STRATEGY = GenerationStrategy.KTH;
 
   public static void main(String[] args) {
     Matrix matrixA = new Matrix(rowsA, colsA);
@@ -26,7 +26,7 @@ public class Main {
     System.out.println("Matrix B:");
     System.out.println(matrixB.toString());
 
-    if (matrixA.rows == matrixB.columns) {
+    if (matrixA.columns == matrixB.rows) {
       Matrix matrixC = new Matrix(matrixA.rows, matrixB.columns);
       long startTime = System.nanoTime();
       run(matrixA, matrixB, matrixC);
@@ -114,9 +114,9 @@ public class Main {
       int index, Matrix matrixA, Matrix matrixB, Matrix matrixC) {
     int numberOfElementsInMatrix = matrixC.rows * matrixC.columns;
     int setSize = numberOfElementsInMatrix / NUMBER_OF_THREADS;
-    if (index == NUMBER_OF_THREADS - 1) setSize += numberOfElementsInMatrix % NUMBER_OF_THREADS;
     int startingLine = setSize * index % matrixC.rows;
     int startingColumn = setSize * index / matrixC.rows;
+    if (index == NUMBER_OF_THREADS - 1) setSize += numberOfElementsInMatrix % NUMBER_OF_THREADS;
     return new ColumnThread(startingLine, startingColumn, setSize, matrixA, matrixB, matrixC);
   }
 
@@ -124,9 +124,9 @@ public class Main {
       int index, Matrix matrixA, Matrix matrixB, Matrix matrixC) {
     int numberOfElementsInMatrix = matrixC.rows * matrixC.columns;
     int setSize = numberOfElementsInMatrix / NUMBER_OF_THREADS;
-    if (index == NUMBER_OF_THREADS - 1) setSize += numberOfElementsInMatrix % NUMBER_OF_THREADS;
     int startingLine = setSize * index / matrixC.rows;
     int startingColumn = setSize * index % matrixC.rows;
+    if (index == NUMBER_OF_THREADS - 1) setSize += numberOfElementsInMatrix % NUMBER_OF_THREADS;
     return new RowThread(startingLine, startingColumn, setSize, matrixA, matrixB, matrixC);
   }
 

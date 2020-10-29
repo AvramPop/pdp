@@ -24,5 +24,6 @@ public class Producer extends Thread {
                 e.printStackTrace();
             }
         }
+        System.out.println("Producer finished");
     }
 }
