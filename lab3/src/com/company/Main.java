@@ -8,12 +8,12 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-  private static final int rowsA = 5;
+  private static final int rowsA = 3;
   private static final int colsA = 3;
   private static final int rowsB = 3;
-  private static final int colsB = 4;
+  private static final int colsB = 3;
   private static final int NUMBER_OF_THREADS = 4;
-  private static final PoolStrategy POOL_STRATEGY = PoolStrategy.CLASSIC;
+  private static final PoolStrategy POOL_STRATEGY = PoolStrategy.THREAD_POOL;
   private static final GenerationStrategy GENERATION_STRATEGY = GenerationStrategy.KTH;
 
   public static void main(String[] args) {

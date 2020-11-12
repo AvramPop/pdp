@@ -1,0 +1,7 @@
+/home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/bin/Debug/lab4.exe.config
+/home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/bin/Debug/lab4.exe
+/home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/bin/Debug/lab4.pdb
+/home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/obj/Debug/lab4.csprojAssemblyReference.cache
+/home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/obj/Debug/lab4.csproj.CoreCompileInputs.cache
+/home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/obj/Debug/lab4.exe
+/home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/obj/Debug/lab4.pdb
