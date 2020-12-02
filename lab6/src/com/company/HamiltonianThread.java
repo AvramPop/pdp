@@ -8,6 +8,7 @@ public class HamiltonianThread extends Thread {
   public final int startingVertex;
   public double elapsedTime;
   public List<Integer> cycle;
+  public boolean finished;
 
   public HamiltonianThread(Graph graph, int startingVertex) {
     this.graph = graph;
@@ -24,12 +25,16 @@ public class HamiltonianThread extends Thread {
 
     path.set(0, startingVertex);
     if (!hamiltonianCycleUtil(graph, path, 1, startingVertex)) {
-      cycle = null;
+      finished = false;
+      cycle = path;
+      long stopTime = System.nanoTime();
+      elapsedTime = ((double) stopTime - (double) startTime) / 1_000_000_000.0;
       return;
     }
     long stopTime = System.nanoTime();
     elapsedTime = ((double) stopTime - (double) startTime) / 1_000_000_000.0;
     path.add(startingVertex);
+    finished = true;
     cycle = path;
   }
 
