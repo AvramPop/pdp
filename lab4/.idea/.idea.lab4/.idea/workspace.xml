@@ -23,36 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa0e3b0e-e055-48a1-8662-d159eadb38cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lab4/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/Lab4.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/bin/Debug/lab4.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/bin/Debug/lab4.exe.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/bin/Debug/lab4.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/domain/SocketWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/impl/Callback.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/impl/TaskAsync.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/impl/TaskNonAsync.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/lab4.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/utils/Utils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/out/production/lab3/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/out/production/lab3/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/Lab4.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/Lab4.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/bin/Debug/lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/bin/Debug/lab4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/bin/Debug/lab4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/bin/Debug/lab4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/impl/TaskAsync.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/impl/TaskAsync.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/obj/Debug/lab4.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/obj/Debug/lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/obj/Debug/lab4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +43,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D97DDA7-73A5-4430-B892-E1D794E5D921/fd/89a25e3a/Dns.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F0DF102-FE6E-4CFE-A29D-2E46F585D8A5/7a/b272feb4/WaitHandle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/impl/CallbackImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://Callback.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/impl/CallbackImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/impl/CallbackImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/impl/CallbackImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F0DF102-FE6E-4CFE-A29D-2E46F585D8A5/5e/d1a0d8b2/IAsyncResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/impl/CallbackImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lab4/impl/Callback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D97DDA7-73A5-4430-B892-E1D794E5D921/4a/154c5b1e/SocketShutdown.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/impl/CallbackImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/impl/CallbackImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/impl/CallbackImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/impl/CallbackImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dani/Desktop/code/scoala/an3/sem1/pdp/lab4/lab4/impl/CallbackImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F0DF102-FE6E-4CFE-A29D-2E46F585D8A5/13/31be2c17/Task.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -93,9 +60,9 @@
         <option value="$PROJECT_DIR$/lab4/utils/Utils.cs" />
         <option value="$PROJECT_DIR$/lab4/impl/TaskNonAsync.cs" />
         <option value="$PROJECT_DIR$/lab4/impl/Callback.cs" />
-        <option value="$PROJECT_DIR$/lab4/Lab4.cs" />
         <option value="$PROJECT_DIR$/lab4/domain/SocketWrapper.cs" />
         <option value="$PROJECT_DIR$/lab4/impl/TaskAsync.cs" />
+        <option value="$PROJECT_DIR$/lab4/Lab4.cs" />
       </list>
     </option>
   </component>
@@ -145,13 +112,14 @@
       <option name="presentableId" value="Default" />
       <updated>1605187058531</updated>
       <workItem from="1605187065828" duration="11875000" />
+      <workItem from="1605535366124" duration="1283000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -163,6 +131,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -173,22 +142,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="428" y="232" width="502" height="304" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1366.768@0.0.1366.768" timestamp="1605192782276" />
-    <state width="1324" height="186" key="GridCell.Tab.0.bottom" timestamp="1605200452892">
+    <state width="1324" height="186" key="GridCell.Tab.0.bottom" timestamp="1605537547775">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1605200452892" />
-    <state width="1324" height="186" key="GridCell.Tab.0.center" timestamp="1605200452885">
+    <state width="1324" height="186" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1605537547775" />
+    <state width="1324" height="186" key="GridCell.Tab.0.center" timestamp="1605537547775">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1605200452885" />
-    <state width="1324" height="186" key="GridCell.Tab.0.left" timestamp="1605200452882">
+    <state width="1324" height="186" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1605537547775" />
+    <state width="1324" height="186" key="GridCell.Tab.0.left" timestamp="1605537547775">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1605200452882" />
-    <state width="1324" height="186" key="GridCell.Tab.0.right" timestamp="1605200452890">
+    <state width="1324" height="186" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1605537547775" />
+    <state width="1324" height="186" key="GridCell.Tab.0.right" timestamp="1605537547775">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1605200452890" />
+    <state width="1324" height="186" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1605537547775" />
     <state x="187" y="19" key="SettingsEditor" timestamp="1605189163820">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

@@ -107,7 +107,7 @@ namespace lab4.impl
                 }
                 else
                 {
-                    Utils.PrintResponse(state);
+                    // Utils.PrintResponse(state);
                     state.receiveDone.Set();
                 }
             }

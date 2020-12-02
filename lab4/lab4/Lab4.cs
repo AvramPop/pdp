@@ -14,8 +14,8 @@ namespace lab4
                     "www.cs.ubbcluj.ro/~rlupsa/edu/index.html"
                 }
                 .ToList();
-            // TaskNonAsync.Run(hosts);
-            TaskAsync.Run(hosts);
+            TaskNonAsync.Run(hosts);
+            // TaskAsync.Run(hosts);
             // Callback.Run(hosts);
         }
     }
