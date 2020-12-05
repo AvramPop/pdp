@@ -33,10 +33,7 @@ public class ParallelTrivial {
   private static Polynomial addPolynomials(
       List<Future<List<Integer>>> futures, int order1, int order2)
       throws ExecutionException, InterruptedException {
-    Polynomial result = new Polynomial();
-    for (int i = 0; i < order1 + order2 - 1; i++) {
-      result.getCoefficients().add(0);
-    }
+    Polynomial result = new Polynomial(order1 + order2 - 1);
     for (Future<List<Integer>> partialResult : futures) {
       List<Integer> actualPartialResult = partialResult.get();
       for (int i = 0; i < actualPartialResult.size(); i++) {

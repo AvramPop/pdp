@@ -17,9 +17,15 @@ public class Polynomial {
 
   public Polynomial(int size) {
     this.coefficients = new ArrayList<>();
-    Random random = new Random();
     for (int i = 0; i < size; i++) {
-      coefficients.add(random.nextInt(10));
+      coefficients.add(0);
+    }
+  }
+
+  public void fillWithRandomNumbers() {
+    Random random = new Random();
+    for (int i = 0; i < coefficients.size(); i++) {
+      coefficients.set(i, random.nextInt(10));
     }
   }
 
