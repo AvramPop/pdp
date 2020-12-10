@@ -1,5 +1,23 @@
 
+T	java:S106D"9Replace this use of System.out or System.err by a logger.(ˆÊŠC8Û¤®•ã.
 \
-java:S1118":Add a private constructor to hide the implicit public one.(ë‡·»ùÿÿÿÿ8±„·¾â.
-T
-java:S1135"2Complete the task associated to this TODO comment.(ªáĞûÿÿÿÿ8´¹¾â.
+java:S1118":Add a private constructor to hide the implicit public one.(ë‡·»ùÿÿÿÿ8àôßã.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Û¤®•ã.
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(ÃŸ­ıùÿÿÿÿ8Û¤®•ã.
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(íšòıÿÿÿÿ8Û¤®•ã.
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Û¤®•ã.
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Û¤®•ã.
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(íšòıÿÿÿÿ8Û¤®•ã.
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Û¤®•ã.
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(üŠì8Û¤®•ã.
+G
+java:S11444"*Remove this unused private "print" method.(“á¡¨8Úê»•ã.
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(¶Ì«¥8Û¤®•ã.
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(·Ÿ™Ãşÿÿÿÿ8Û¤®•ã.
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(–£´8Û¤®•ã.
+U	java:S106A"9Replace this use of System.out or System.err by a logger.(—Äõª8Û¤®•ã.
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Û¤®•ã.
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(¾ŠÍï8Û¤®•ã.
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(‹¼Üİÿÿÿÿÿ8Û¤®•ã.
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Û¤®•ã.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(Õ¸³Şşÿÿÿÿ8Û¤®•ã.

@@ -10,7 +10,7 @@ import com.company.algorithms.SequentialTrivial;
 import java.util.concurrent.ExecutionException;
 
 public class Main {
-  private static final Method METHOD = Method.PARALLEL;
+  private static final Method METHOD = Method.SEQUENTIAL;
   private static final Algorithm ALGORITHM = Algorithm.KARATSUBA;
   private static final int NUMBER_OF_THREADS = 4;
 

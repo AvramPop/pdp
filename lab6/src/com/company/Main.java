@@ -19,7 +19,7 @@ public class Main {
     //      {0, 0, 0, 0, 1},
     //      {0, 0, 0, 0, 0},
     //    };
-    int[][] graphMatrix = generateMatrix(500);
+    int[][] graphMatrix = generateMatrix(10);
     Graph graph = new Graph(graphMatrix);
     ExecutorService executorService = Executors.newFixedThreadPool(graph.size);
     List<HamiltonianThread> threads = prepareData(graph, executorService);

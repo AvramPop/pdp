@@ -15,3 +15,5 @@ _
 /src/com/company/algorithms/ParallelTrivial.java,7/d/7d1c4c69d435db81b78c7748913230785c59c428
 I
 src/com/company/Main.java,4/a/4a831b10439099d44774d0ccc387e808deffaeab
+T
+$src/com/company/PolynomialUtils.java,5/b/5b43f8494d1d8822f8c1a4001eee25c9f7ac8677
