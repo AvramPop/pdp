@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="mpi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../mpj-v0_44/lib/mpi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../mpj-v0_44/lib/mpj.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../mpj-v0_44/lib/starter.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
