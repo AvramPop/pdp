@@ -1,18 +1,18 @@
 
 j
 java:S1192m"TUse already-defined constant 'MULTIPLICATION' instead of duplicating its value here.(º«Ìó
-?
-java:S1659"$Declare "finish" on a separate line.(–¨Ä÷ýÿÿÿÿ
 N	java:S106&"9Replace this use of System.out or System.err by a logger.(ØÍ²ø
-S	java:S106'"9Replace this use of System.out or System.err by a logger.(áŽ‹»þÿÿÿÿ
+g
+java:S3457?"Q%n should be used in place of \n to produce the platform-specific line separator.(û¥Þ‡
 g
 java:S3457+"Q%n should be used in place of \n to produce the platform-specific line separator.(û¥Þ‡
 N	java:S106+"9Replace this use of System.out or System.err by a logger.(û¥Þ‡
-g
-java:S3457?"Q%n should be used in place of \n to produce the platform-specific line separator.(û¥Þ‡
 N	java:S106?"9Replace this use of System.out or System.err by a logger.(û¥Þ‡
 S	java:S106b"9Replace this use of System.out or System.err by a logger.(Üèî øÿÿÿÿ
 S	java:S106h"9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿ
-S	java:S106i"9Replace this use of System.out or System.err by a logger.(¶·¶”þÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(áŽ‹»þÿÿÿÿ
 O
 java:S2121m"9Remove this "compareTo" call; it has predictable results.(º«Ìó
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(¶·¶”þÿÿÿÿ
+?
+java:S1659"$Declare "finish" on a separate line.(–¨Ä÷ýÿÿÿÿ
