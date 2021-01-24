@@ -76,7 +76,7 @@ public class Main {
             for (int i = 1; i < n; i += 2) {
                 if (array.contains(i)) continue;
                 array.add(i);
-                sum += back(array, n, me, numberOfProcesses);
+                sum += back(array, n, me, numberOfProcesses); // should this be numberOFProcesses/2?
                 array.remove(array.size() - 1);
             }
             MPI.COMM_WORLD.Send(new Object[]{sum}, 0, 1, MPI.OBJECT, parent, 0);
